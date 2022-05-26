@@ -1,0 +1,103 @@
+body {
+    background-color: #F1EEE9;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+img {
+    border-radius: 999%;
+    width: 200px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #8CC0DE;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+    max-width: 64rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content .profile {
+    align-self: center;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    flex-basis: 38%;
+}
+
+.content .data {
+    text-align: justify;
+    flex-basis: 75%;
+    margin-bottom: 1rem;
+    line-height: 1.75rem;
+}
+
+.about {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.about-pekerjaan {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.about-pekerjaan-tahun {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-style: italic;
+}
+
+.about-deskripsi {
+    line-height: 1.75rem;
+    border-bottom: solid;
+    border-color: #e5e7eb;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+
+.portofolio-image {
+    border-radius: 01.75rem;
+    height: 9rem;
+    width: 9rem;
+}
+
+#form-diskusi {
+    min-height: 12rem;
+    padding: 0.5rem;
+}
+
+.footer-web {
+    background-color: #0fe0b3;
+    text-align: center;
+}
